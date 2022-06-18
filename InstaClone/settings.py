@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'instaapp',
+    'channels',
+    
 ]
 
 MIDDLEWARE = [
@@ -69,6 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'InstaClone.wsgi.application'
+ASGI_APPLICATION = 'InstaClone.asgi.application'
 
 
 # Database
